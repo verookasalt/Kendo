@@ -1,9 +1,9 @@
 # Kendo UI and Remote Data Sources
-Repository for examples of Kendo UI tools such as grid using remote data based on Web API 2
+Recently, I was given a project to re-write. Before, it was based on the old ASP.NET Forms technology and relied on Telerik Rad Ajax controls on the client and your standard code-behind on the server. With this new version, I am going a different way with it. The new edition will utilize a client comprised of <a href="http://www.telerik.com/kendo-ui"> Telerik Kendo UI for jQuery</a> components and a backend created with <a href="https://msdn.microsoft.com/en-us/library/dn448365(v=vs.118).aspx">ASP.NET Web API 2</a>. This web api will then be deployed <a href="https://azure.microsoft.com">Microsoft Azure</a> App Fabric as a App Service.  
 
 Telerik Kendo UI components have been around for a while now and if you are licensed to use them, they can be a real time saver. They are pro tools so the results you get from them can be outstanding. The demos they provide are very useful but they are a bit lacking in certain areas.
 
-A good example is implementing CRUD operations on remote data sources. As it would be nearly impossible for Telerik to provide examples of many different types of services, finding examples specific to your needs can be difficult, to say the least.
+A good example is implementing CRUD operations on remote data sources. As it would be nearly impossible for Telerik to provide examples of many different types of services, finding examples specific to your needs can be difficult, to say the least. It is the aim of this repository to give you enough information for the given scenario to get you started.
 
 # C-Sharp Corner to the rescue
 One of the only truly useful resources I could find was <a href=" http://www.c-sharpcorner.com/uploadfile/fc9f65/crud-operation-in-kendo-grid-using-web-api/">this example</a>. Hat's off to the good folks at <a href="http://www.c-sharpcorner.com">C-Sharp Corner</a>, an awesome resource! 
