@@ -6,7 +6,7 @@ Telerik Kendo UI components have been around for a while now and if you are lice
 A good example is implementing CRUD operations on remote data sources. As it would be nearly impossible for Telerik to provide examples of many different types of services, finding examples specific to your needs can be difficult, to say the least. It is the aim of this repository to give you enough information for the given scenario to get you started.
 
 # C-Sharp Corner to the rescue
-One of the only truly useful resources I could find was <a href=" http://www.c-sharpcorner.com/uploadfile/fc9f65/crud-operation-in-kendo-grid-using-web-api/">this example</a>. Hat's off to the good folks at <a href="http://www.c-sharpcorner.com">C-Sharp Corner</a>, an awesome resource! 
+This <a href="http://www.c-sharpcorner.com/uploadfile/fc9f65/crud-operation-in-kendo-grid-using-web-api/">amazing resource</a> played a huge part in my understanding of this whole process this example</a>. Hat's off to the good folks at <a href="http://www.c-sharpcorner.com">C-Sharp Corner</a>, an awesome resource! 
 
 # So, how is this any different?
 Here you will find a very comprehensive example that will show you how ALL of it works, from soup to nuts.
