@@ -50,10 +50,8 @@
             
             <script>
                 
-                // Source: http://www.c-sharpcorner.com/uploadfile/fc9f65/crud-operation-in-kendo-grid-using-web-api/
-
                 $(document).ready(function () {
-                    var crudServiceBaseUrl = "https://businesslighting.azurewebsites.net/api/taxtype",
+                    var crudServiceBaseUrl = "https://yourServiceEndpoint/api/controllerName",
                     dataSource = new kendo.data.DataSource({
                         transport: {
                             read:  {
@@ -83,9 +81,9 @@
                         pageSize: 10,
                         schema: {
                             model: {
-                                id: "TaxTypeId",
+                                id: "ObjectId",
                                 fields: {
-                                    TaxTypeId: { editable: false, nullable: false, type: "number" },
+                                    ObjectId: { editable: false, nullable: false, type: "number" },
                                     Description: { editable: true, nullable: false, type: "string" }
                                 }
                             }
@@ -98,7 +96,7 @@
                         toolbar: ["create"],    
                         columns: [    
                         {    
-                            field: "TaxTypeId",    
+                            field: "ObjectId",    
                             title: "Id"  
                         },    
                         {    
